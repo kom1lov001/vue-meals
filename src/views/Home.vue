@@ -1,12 +1,5 @@
 <template>
-  <div class="flex p-8 flex-col justify-center">
-    <!-- <pre>{{ ingredients }}</pre> -->
-    <!-- <router-link to="/counter" class="p-3 m-4 text-gray-500"
-      >Counter
-    </router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/login">Login</router-link> -->
-  </div>
+  <div class="flex p-8 flex-col justify-center"></div>
 </template>
 <script setup>
 import { computed, onMounted, ref } from "vue";
@@ -23,18 +16,3 @@ onMounted(async () => {
 });
 </script>
 <style lang=""></style>
-
-<!-- <ul>
-      <li>
-        <router-link to="/about">About</router-link> | |
-        <router-link to="/login">Login</router-link>
-      </li>
-    </ul> -->
-<!--// <template>
-//   <div>
-//     <input type="text" />
-//   </div>
-// </template>
-// <script setup></script>
-// <style lang=""></style>
--->

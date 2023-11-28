@@ -6,7 +6,7 @@
       <router-link class="inline-flex items-center" :to="{ name: 'home' }"
         >Home</router-link
       >
-      <div class="flex items-center gap-1">
+      <div class="flex items-center">
         <router-link
           class="inline-flex px-2 h-full transition-colors hover:bg-purple-100 items-center"
           :to="{ name: 'byLetter' }"

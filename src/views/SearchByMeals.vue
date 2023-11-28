@@ -8,7 +8,6 @@
     />
   </div>
 </template>
-
 <script setup>
 import { ref } from "vue";
 import axiosClient from "../axiosClient";
