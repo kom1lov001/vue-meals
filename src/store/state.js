@@ -1,4 +1,6 @@
 export default {
-  // meals: ["salmon"],
+  searchedMeals: {
+    loading: false,
+    data: [],
+  },
 };
-// export let meals = [];

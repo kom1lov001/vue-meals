@@ -1,9 +1,9 @@
 <template>
   <!-- <h1 class="m-3">Search By Letter</h1> -->
-  <div class="flex gap-1 justify-center mt-5">
+  <div class="flex justify-center gap-1 mt-5">
     <router-link
       :to="{ name: 'byLetter', params: { letter } }"
-      class="text-2xl p-2"
+      class="p-2 text-2xl"
       v-for="letter of letters"
       :key="letter"
     >

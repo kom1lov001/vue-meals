@@ -1,35 +1,35 @@
 <template>
   <div>
     <header
-      class="bg-white shadow h-16 flex justify-around items-stretch text-center"
+      class="flex items-stretch justify-around h-16 text-center bg-white shadow"
     >
       <router-link class="inline-flex items-center" :to="{ name: 'home' }"
         >Home</router-link
       >
       <div class="flex items-center">
         <router-link
-          class="inline-flex px-2 h-full transition-colors hover:bg-purple-100 items-center"
+          class="inline-flex items-center h-full px-2 transition-colors hover:bg-purple-100"
           :to="{ name: 'byLetter' }"
         >
           Search By Letter
         </router-link>
         |
         <router-link
-          class="inline-flex px-2 h-full transition-colors hover:bg-purple-100 items-center"
+          class="inline-flex items-center h-full px-2 transition-colors hover:bg-purple-100"
           :to="{ name: 'byMeal' }"
         >
           Meals By Meals
         </router-link>
         |
         <router-link
-          class="inline-flex px-2 h-full items-center transition-colors hover:bg-purple-100"
+          class="inline-flex items-center h-full px-2 transition-colors hover:bg-purple-100"
           :to="{ name: 'byIngredient' }"
         >
           Meals By Ingredients
         </router-link>
         |
         <router-link
-          class="inline-flex px-2 h-full items-center transition-colors hover:bg-purple-100"
+          class="inline-flex items-center h-full px-2 transition-colors hover:bg-purple-100"
           to="/guest"
           >Guest</router-link
         >

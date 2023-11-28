@@ -3,8 +3,9 @@
     <input
       v-model="keyword"
       type="text"
-      class="outline-none border-none p-3 text-lg placeholder:text-lg border-2 rounded-md border-gray-700 w-full"
+      class="w-full p-3 text-lg border-2 border-gray-700 border-none rounded-md outline-none placeholder:text-lg"
       placeholder="search for meals"
+      @change="searchMeals"
     />
   </div>
 </template>
@@ -17,3 +18,5 @@ function searchMeals() {
 }
 </script>
 <style scoped></style>
+
+<!-- https://youtu.be/Ls1WfzOrKkc?si=VG2XibNKFtNqxYks -->

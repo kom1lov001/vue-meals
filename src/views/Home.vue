@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-8 flex-col justify-center"></div>
+  <div class="flex flex-col justify-center p-8"></div>
 </template>
 <script setup>
 import { computed, onMounted, ref } from "vue";
