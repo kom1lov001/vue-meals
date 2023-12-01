@@ -239,7 +239,7 @@ const options = Array.from({ length: 10000 }).map((_, idx) => ({
 </script>
 -->
 <template>
-  <div></div>
+  <div>login</div>
 </template>
 <script setup></script>
 <style lang=""></style>

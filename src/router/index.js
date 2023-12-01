@@ -5,6 +5,8 @@ import SearchByMeals from "../views/SearchByMeals.vue";
 import SearchByIngredients from "../views/SearchByIngredients.vue";
 import DefaultLayout from "../components/DefaultLayout.vue";
 import GuestLayout from "../components/GuestLayout.vue";
+import Login from "../views/Login.vue";
+import MealDetails from "../views/MealDetails.vue";
 
 let routes = [
   {
@@ -17,14 +19,14 @@ let routes = [
         component: Home,
       },
       {
-        path: "/by-letter/:letter?",
-        name: "byLetter",
-        component: SearchByLetters,
-      },
-      {
         path: "/by-meal/:meal?",
         name: "byMeal",
         component: SearchByMeals,
+      },
+      {
+        path: "/by-letter/:letter?",
+        name: "byLetter",
+        component: SearchByLetters,
       },
       {
         path: "/by-ingredient/:ingredient?",
@@ -34,8 +36,17 @@ let routes = [
     ],
   },
   {
+    path: "/meal/:id",
+    name: "mealDetails",
+    component: MealDetails,
+  },
+  {
     path: "/guest",
     component: GuestLayout,
+  },
+  {
+    path: "/login",
+    component: Login,
   },
 ];
 let router = createRouter({

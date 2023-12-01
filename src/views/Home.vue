@@ -1,10 +1,12 @@
 <template>
-  <div class="flex flex-col justify-center p-8"></div>
+  <div class="flex flex-col justify-center p-8">
+    <!-- <pre>{{ ingredients }}</pre> -->
+  </div>
 </template>
 <script setup>
 import { computed, onMounted, ref } from "vue";
-import store from "../store";
-import axiosClient from "../axiosClient.js";
+// import store from "../store";
+import axiosClient from "../axiosClient";
 
 // let meals = computed(() => store.state.meals);
 let ingredients = ref([]);
@@ -15,4 +17,4 @@ onMounted(async () => {
   ingredients.value = response.data;
 });
 </script>
-<style lang=""></style>
+<style></style>

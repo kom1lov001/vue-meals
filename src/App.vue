@@ -1,11 +1,3 @@
-<template>
-  <router-view></router-view>
-</template>
-
-<script setup></script>
-
-<style scoped></style>
-
 <!-- <template>
   <header class="container">
     <el-button text @click="table = true"
@@ -145,3 +137,10 @@ const cancelForm = () => {
 };
 </script>
 -->
+<template>
+  <router-view></router-view>
+</template>
+
+<script setup></script>
+
+<style scoped></style>
